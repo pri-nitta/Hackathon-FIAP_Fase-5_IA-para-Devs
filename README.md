@@ -19,4 +19,11 @@ Este projeto utiliza um modelo treinado (YOLOv5) para detectar objetos cortantes
 
 4 Execute os códigos presentes na seção "Inclusão de dependencias" em seguida  execute os codigtos na seção "Implementação" do notebook.
 
+5 Caso deseje realizar o envio de e-mails essa parte da função send_email deve ser descomentada e configurada com uma conta valida da Mailtrap:
+
+#with smtplib.SMTP("sandbox.smtp.mailtrap.io", 2525) as smtp:
+#smtp.starttls()
+#smtp.login("9255552ad395dd", "5fcb1b5afa7664")
+#smtp.send_message(msg)
+
 O notebook irá descompactar o modelo, carregar os dados e processar o vídeo automaticamente, mostrando os resultados com as detecções marcadas.
