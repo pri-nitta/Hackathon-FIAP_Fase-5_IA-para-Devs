@@ -1,11 +1,11 @@
 # Hackathon-FIAP Fase-5 IA-para-Devs
 Hackathon desenvolvido como método de avaliação da fase 5 para pôs-graduação no curso de IA para devs na FIAP 2025
 
-##Detecção de Objetos Cortantes em Vídeos##
+## Detecção de Objetos Cortantes em Vídeos
 
 Este projeto utiliza um modelo treinado (YOLOv5) para detectar objetos cortantes como facas, tesouras e similares em vídeos.
 
-- O que você precisa fazer -
+## O que você precisa fazer
 
 1 Acesse o notebook no Google Colab.
 
